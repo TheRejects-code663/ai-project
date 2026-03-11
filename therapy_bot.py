@@ -6,7 +6,7 @@ import random
 
 # --- 1. SETUP THE AI ---
 # REPLACE WITH YOUR NEW KEY (Keep it private!)
-API_KEY = "AIzaSyAPVROYRchF7q4DKhEezajqjaQZWpFT0kM"
+API_KEY = "[ENCRYPTED]"
 # Try-Except block to handle connection errors immediately
 try:
     genai.configure(api_key=API_KEY)
@@ -84,4 +84,5 @@ class TherapyApp:
 if __name__ == "__main__":
     window = tk.Tk()
     app = TherapyApp(window)
+
     window.mainloop()
